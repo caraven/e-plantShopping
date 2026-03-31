@@ -1,1 +1,1 @@
-https://github.com/caraven/e-plantShopping
+Project name: Paradise Nursery Shopping Application
