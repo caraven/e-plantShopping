@@ -4,7 +4,7 @@ export const CartSlice = createSlice({
   name: 'cart',
   initialState: {
     items: [], // Initialize items as an empty array
-} ,
+    } ,
   reducers: {
     addItem: (state, action) => {
         const { name, image, cost } = action.payload; //Desarma los detalles del prodcuto a partir del action payolad
@@ -12,7 +12,7 @@ export const CartSlice = createSlice({
         const existingItem = state.items.find(item => item.name === name);
         if (existingItem) {
             // Si el ítem ya existe en el carrito, incrementa quantity
-            existingItem.updateQuantity++;
+            existingItem.quantity++;
         }
         else {
             // Si el ítem no existe en el carrito, se agrega al carrito con 1 en quantity
