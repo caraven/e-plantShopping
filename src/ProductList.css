@@ -55,7 +55,7 @@ body {
     /* justify-content: space-between; */
     padding: 20px;
     width: 100%;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
 }
 
@@ -70,8 +70,9 @@ body {
     border-radius: 5px;
     text-align: center;
     position: relative;
-    
     gap: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Pseudo-classes - Hover effect on product button */
