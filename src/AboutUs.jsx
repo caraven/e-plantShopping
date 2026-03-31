@@ -5,7 +5,7 @@ function AboutUs() {
   return (
     <div className="about-us-container">
       {/* <h1 className="about-us-heading">About Us</h1> */}
-      <p className="about-us-description">Welcome to Evergreen Oasis, your personal gateway to a greener and more vibrant lifestyle.</p>
+      <p className="about-us-description">Welcome to Paradise Nursery, your personal gateway to a greener and more vibrant lifestyle.</p>
       <p className="about-us-content">
       We believe that plants are more than just decoration—they are a way to reconnect with nature and transform everyday 
       spaces into living sanctuaries. Our carefully curated selection includes everything from easy-care indoor plants to 
@@ -18,7 +18,7 @@ function AboutUs() {
       {/* <p className="plant_logo_right"><img src="https://p1.hiclipart.com/preview/922/979/640/green-leaf-logo-emoji-seedling-emoticon-sticker-plant-plant-stem-flower-png-clipart-thumbnail.jpg" height='50px' width='50px' alt="" /></p> */}
 
       <p className="about-us-content">
-      At Evergreen Oasis, every plant tells a story, and we’re excited to help you grow yours.
+      At Paradise Nursery, every plant tells a story, and we’re excited to help you grow yours.
       </p>
     </div>
   );
